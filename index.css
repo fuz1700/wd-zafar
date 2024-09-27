@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.case {
+  width: 95%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #eeeff1;
+}
+
+.n-main {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 42px;
+  a {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+header {
+  width: 100%;
+  height: max-content;
+  background-color: #eeeff1;
+  padding: 60px 0;
+}
+
+.h-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.h-right {
+  h1 {
+    font-size: 48px;
+  }
+  p {
+    font-size: 16px;
+    color: #727272;
+    padding: 60px 0;
+  }
+  button {
+    width: 225px;
+    height: 65px;
+    background-color: #34547a;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.txt {
+  text-align: center;
+  padding: 100px 0;
+  h1 {
+    font-size: 32px;
+    padding-bottom: 50px;
+  }
+  p {
+    font-size: 16px;
+    color: #727272;
+  }
+}
+
+main {
+  width: 100%;
+  height: max-content;
+  padding: 100px 0;
+  background-color: #34547a;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  .card {
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 21px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+}
+
+.card:hover {
+  transform: rotate(360deg);
+}
+
+.s-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.s-right img {
+  width: 100%;
+  max-width: 555px;
+}
+
+.s-left {
+  input {
+    width: 445px;
+    accent-color: #34547a;
+  }
+  h1 {
+    font-size: 32px;
+    padding-bottom: 25px;
+  }
+  p {
+    font-size: 16px;
+    color: #727272;
+    padding: 25px 0;
+  }
+}
+
+.video {
+  width: 100%;
+}
+
+.work {
+  padding: 60px 0;
+  background-color: #eeeff1;
+}
+
+.rasm {
+  background: url(images/orqa2.png) no-repeat center/center-color;
+  width: 1280px;
+  height: 960px;
+
+  img {
+    width: 170%;
+  }
+}
+
+.mirco {
+  width: 1110px;
+  height: 120px;
+  padding-left: 405px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  img {
+    width: 100%;
+  }
+}
+
+aside {
+  background: #eeeff1;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.inputt input {
+  width: 255px;
+  height: 50px;
+  gap: 30px;
+}
+
+.lorem {
+  background: #eeeff1;
+}
+
+.index input {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 540px;
+  height: 175px;
+}
+.btn button {
+  background: #34547a;
+  width: 190px;
+  height: 55px;
+  border-bottom: #34547a;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+footer {
+  background-color: #34547a;
+  width: 2150px;
+  height: 151px;
+}
+.f-left {
+  text-align: left;
+padding: 50px 0;
+  h3 {
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-align: left;
+  }
+  p {
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-align: left;
+    padding-top: 40px;
+  }
+}
+
+.f-right {
+  width: 175px;
+  height: 40px;
+justify-content: space-between;
+display: flex;
+align-items: center;
+  gap: 21px;
+
+  img {
+    width: 100%;
+    height: 40px;
+  }
+}
+
+.f-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
